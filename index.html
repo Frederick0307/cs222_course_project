@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canon's HQ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <h2>The Canon's Headquarters website Recruitment</h2>
+	<nav class=”navbar”>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Discord</a>
+      <a href="#about">About</a>
+      <a href="#games">games</a>
+    </div>
+
+    <div class="main">
+      <h3>About this Page:</h3>
+      <p>This page is about recruiting gamers from NA to Asia contient and this website is all about getting you  join the groups and become part of the Canon's Headquarters main members of the clan in other games.</p>
+      <p>The Canon's Headquarters is about join the people who are onces shunned by other clans who are either left by or the people who are ignore by those who are left without any common purpose from both games or real life this place is a both haven and community for everyone to join the group that kicked out from their previous clan.</p>
+  <h2 div style="text-align: center;">Other games all across to gaming. </h2>
+  <p div style="text-align:left">Change image every 2 seconds:</p>
+ 
+  <div class="slideshow-container">
+ 
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="image/Screenshot 2024-11-07 205124.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+ 
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="image/Screenshot_2024-11-07-20-54-40.webp" style="width:100%">
+    <div class="text"></div>
+  </div>
+ 
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="" style="width:100%">
+    <div class="text"></div>
+  </div>
+ 
+  <br>
+ 
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+
+  <script>
+  let slideIndex = 0;
+  showSlides();
+ 
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+
+  
+  </script>
+  </body>
+  </html>
